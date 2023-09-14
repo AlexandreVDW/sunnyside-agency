@@ -1,0 +1,16 @@
+@import '../font';
+
+.section_five{
+    width: 375px;
+    height:375px;
+    &_container{
+        display: grid;
+        grid-template: 50% 50% / 50% 50%;
+        &_div{
+            &_img{
+                width: 188px;
+                height:188px;
+            }
+        }
+    }
+}

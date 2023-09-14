@@ -1,4 +1,4 @@
-const hamburger = document.querySelector(".section_one_div_hamburger");
+const hamburger = document.querySelector(".section_one_navbar_div_hamburger");
 const navMenu = document.querySelector(".section_one_navbar_menu");
 
 hamburger.addEventListener("click", ()=>{

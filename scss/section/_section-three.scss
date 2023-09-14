@@ -1,0 +1,74 @@
+@import '../font';
+
+.section_three{
+    width: 375px;
+    height:1200px;
+    &_div_one{
+            width: 375px;
+            height:600px;
+            background-image: url('../images/photos/image-graphic-design.jpg');
+            background-position: center center;
+            background-size: cover;
+            display: flex;
+            justify-content: flex-end;
+            flex-direction: column;
+        &_txt{
+            margin-left: 1.5rem;
+            margin-right: 1.5rem;
+            margin-bottom: 3.6875rem;
+            &_h2{
+                font-size: 1.75rem;
+                text-align: center;
+                font-family: 'Fraunces', serif;
+                font-weight: 900;
+                line-height: 2.1575rem;
+                margin-bottom: 27px;
+                margin-left: 3.3125rem;
+                margin-right: 3.3125rem;
+                letter-spacing: -0.0125rem;
+            }
+            &_p{
+                font-size: 1rem;
+                text-align: center;
+                font-family: 'Barlow', serif;
+                font-weight: 600;
+                line-height: 1.6875rem;
+                letter-spacing: -0.11px;
+            }
+        }
+    }
+    &_div_two{
+        width: 375px;
+        height:600px;
+        background-image: url('../images/photos/image-photography.jpg');
+        background-position: center center;
+        background-size: cover;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        &_txt{
+            margin-left: 1.5rem;
+            margin-right: 1.5rem;
+            margin-bottom: 3.6875rem;
+            &_h2{
+                font-size: 1.75rem;
+                text-align: center;
+                font-family: 'Fraunces', serif;
+                font-weight: 900;
+                line-height: 2.1575rem;
+                margin-bottom: 27px;
+                margin-left: 3.3125rem;
+                margin-right: 3.3125rem;
+                letter-spacing: -0.0125rem;
+            }
+            &_p{
+                font-size: 1rem;
+                text-align: center;
+                font-family: 'Barlow', serif;
+                font-weight: 600;
+                line-height: 1.6875rem;
+                letter-spacing: -0.11px;
+            }
+        }
+    }
+}

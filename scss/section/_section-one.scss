@@ -1,12 +1,24 @@
+@import '../font';
+
+
 .section_one{
+    background-image: url('../images/photos/image-header.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 375px;
+    height: 538px;
     &_navbar{
         min-height: 70px;
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 0 1.5rem;
-        background-color: black;
+        /*
+        &_img{
 
+        }
+        */
         &_branding{
             font-size: 2rem;
         }
@@ -22,7 +34,7 @@
                 transition: 0.7s ease;
                 &:hover{
                 background-color: yellow;
-                border-radius: 25%;
+                border-radius: 5%;
                 }
             }
         }
@@ -40,16 +52,48 @@
             }
         }
     }
+    &_h2{
+        color:white;
+        font-size: 2.5rem;
+        text-align: center;
+        font-family: 'Fraunces', serif;
+        font-weight: 900;
+        margin:0 8%;
+        padding-top: 5%;
+    }
+    &_div{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 15%;
+        &_arrow{
+        width:30px;
+        height: 110px;
+        } 
+    }
+         
 }
 @media(max-width:768px){
     .section_one{
-        .section_one_navbar{
-            .section_one_navbar_menu{
+        &_navbar{
+            &_div_hamburger{
+                display:block;
+                &.active &_bar:nth-child(2){
+                    opacity:0;
+                }
+                &.active &_bar:nth-child(1){
+                    transform:translateY(.5rem)rotate(45deg);
+                }
+                &.active &_bar:nth-child(3){
+                    transform:translateY(-.5rem)rotate(-45deg);
+                }
+            }
+            &_menu{
                 position:fixed;
                 left:-100%;
                 gap:0;
                 flex-direction: column;
-                background-color: black;
+                background-color: white;
                 width: 100%;
                 text-align: center;
                 transition: 0.3s;
@@ -57,20 +101,8 @@
                     left:0;
                 }
             }
-            .section_one_navbar_item{
+            &_item{
                     margin: 1rem 0;
-            }
-            .section_one_div_hamburger{
-                display:block;
-                &.active.section_one_div_hamburger_bar:nth-child(2){
-                    opacity:0;
-                }
-                &.active.section_one_div_hamburger_bar:nth-child(1){
-                    transform:translateY(.5rem)rotate(45deg);
-                }
-                &.active.section_one_div_hamburger_bar:nth-child(3){
-                    transform:translateY(-.5rem)rotate(-45deg);
-                }
             }
         }
     }

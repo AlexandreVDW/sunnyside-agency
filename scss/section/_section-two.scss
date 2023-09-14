@@ -1,0 +1,92 @@
+@import '../font';
+
+.section_two{
+    width: 375px;
+    background-color: white;
+    &_div_one{
+        &_img{
+            width:375px;
+            height:312px;
+        }
+    }
+    &_div_two{
+        margin: 15% 6%;
+        width: 327px;
+        height:309px;
+        &_h2{
+            font-size: 2rem;
+            text-align: center;
+            font-family: 'Fraunces', serif;
+            font-weight: 900;
+            padding-bottom: 8%;
+            line-height: 2.5rem;
+        }
+        &_p{
+            font-size: 1.125rem;
+            text-align: center;
+            font-family: 'Barlow', serif;
+            font-weight: 600;
+            padding-bottom: 8%;
+            line-height: 1.875rem;
+        }
+        &_learn{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            &_link{
+                font-size: 1rem;
+                text-align: center;
+                font-family: 'Fraunces', sans-serif;
+                font-weight: 900;
+                line-height: 1.5625rem;
+                padding-bottom: 8%;
+                color:black;
+                text-decoration: none;
+                text-shadow: 0px 2px yellow;
+            }
+        }
+    }
+    &_div_three{
+        &_img{
+            width:375px;
+            height:312px;
+        }
+    }
+    &_div_four{
+        margin: 15% 6%;
+        width: 327px;
+        height:309px;
+        &_h2{
+            font-size: 2rem;
+            text-align: center;
+            font-family: 'Fraunces', serif;
+            font-weight: 900;
+            padding-bottom: 8%;
+            line-height: 2.5rem;
+        }
+        &_p{
+            font-size: 1.125rem;
+            text-align: center;
+            font-family: 'Barlow', serif;
+            font-weight: 600;
+            padding-bottom: 8%;
+            line-height: 1.875rem;
+        }
+        &_learn{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            &_link{
+                font-size: 1rem;
+                text-align: center;
+                font-family: 'Fraunces', sans-serif;
+                font-weight: 900;
+                line-height: 1.5625rem;
+                padding-bottom: 8%;
+                color:black;
+                text-decoration: none;
+                text-shadow: 0px 2px yellow;
+            }
+        }
+    }
+}
