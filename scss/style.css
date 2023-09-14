@@ -1,0 +1,120 @@
+@import url("https://fonts.google.com/specimen/Barlow");
+@import url("https://fonts.google.com/specimen/Fraunces");
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: none;
+     -moz-text-size-adjust: none;
+          text-size-adjust: none;
+}
+
+footer, header, nav, section, main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input {
+  border-radius: 0;
+}
+
+.section_one_navbar {
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1.5rem;
+  background-color: black;
+}
+.section_one_navbar_branding {
+  font-size: 2rem;
+}
+.section_one_navbar_menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3.75rem;
+}
+.section_one_navbar_item {
+  list-style: none;
+}
+.section_one_navbar_item_link {
+  transition: 0.7s ease;
+}
+.section_one_navbar_item_link:hover {
+  background-color: yellow;
+  border-radius: 25%;
+}
+.section_one_navbar_div_hamburger {
+  display: none;
+  cursor: pointer;
+}
+.section_one_navbar_div_hamburger_bar {
+  display: block;
+  width: 1.5625rem;
+  height: 0.1875rem;
+  margin: 0.3125rem auto;
+  transition: all 0.3s ease-in-out;
+  background-color: white;
+}
+
+@media (max-width: 768px) {
+  .section_one .section_one_navbar .section_one_navbar_menu {
+    position: fixed;
+    left: -100%;
+    gap: 0;
+    flex-direction: column;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+  }
+  .section_one .section_one_navbar .section_one_navbar_menu.active {
+    left: 0;
+  }
+  .section_one .section_one_navbar .section_one_navbar_item {
+    margin: 1rem 0;
+  }
+  .section_one .section_one_navbar .section_one_div_hamburger {
+    display: block;
+  }
+  .section_one .section_one_navbar .section_one_div_hamburger.active.section_one_div_hamburger_bar:nth-child(2) {
+    opacity: 0;
+  }
+  .section_one .section_one_navbar .section_one_div_hamburger.active.section_one_div_hamburger_bar:nth-child(1) {
+    transform: translateY(0.5rem) rotate(45deg);
+  }
+  .section_one .section_one_navbar .section_one_div_hamburger.active.section_one_div_hamburger_bar:nth-child(3) {
+    transform: translateY(-0.5rem) rotate(-45deg);
+  }
+}/*# sourceMappingURL=style.css.map */
