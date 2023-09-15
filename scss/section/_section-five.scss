@@ -3,6 +3,7 @@
 .section_five{
     width: 375px;
     height:375px;
+    margin-top: 2rem;
     &_container{
         display: grid;
         grid-template: 50% 50% / 50% 50%;
@@ -13,4 +14,22 @@
             }
         }
     }
+}
+@media(min-width:1439px){
+    .section_five{
+        width: 1440px;
+        height:447px;
+        &_container{
+            display: flex;
+            flex-direction: row;
+            width: 360px;
+            height:447px;
+            &_div{
+                &_img{
+                    width: 360px;
+                    height:447px;
+                }
+            }
+        }
+    } 
 }

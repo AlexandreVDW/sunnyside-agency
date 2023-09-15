@@ -16,6 +16,7 @@
             margin-left: 1.5rem;
             margin-right: 1.5rem;
             margin-bottom: 3.6875rem;
+            color:#24554A;
             &_h2{
                 font-size: 1.75rem;
                 text-align: center;
@@ -50,6 +51,7 @@
             margin-left: 1.5rem;
             margin-right: 1.5rem;
             margin-bottom: 3.6875rem;
+            color:#24554A;
             &_h2{
                 font-size: 1.75rem;
                 text-align: center;
@@ -68,6 +70,42 @@
                 font-weight: 600;
                 line-height: 1.6875rem;
                 letter-spacing: -0.11px;
+            }
+        }
+    }
+}
+@media(min-width:1439px){
+    .section_three{
+        width: 1440px;
+        height:600px;
+        display: flex;
+        flex-direction: row;
+        &_div_one{
+                width: 720px;
+                height:600px;
+            &_txt{
+                &_h2{
+                    margin-left: 150px;
+                    margin-right: 150px;
+                }
+                &_p{
+                    margin-left: 150px;
+                    margin-right: 150px;
+                }
+            }
+        }
+        &_div_two{
+            width: 720px;
+            height:600px;
+            &_txt{
+                &_h2{
+                    margin-left: 150px;
+                    margin-right: 150px;
+                }
+                &_p{
+                    margin-left: 150px;
+                    margin-right: 150px;
+                }
             }
         }
     }

@@ -85,7 +85,92 @@
                 padding-bottom: 8%;
                 color:black;
                 text-decoration: none;
-                text-shadow: 0px 2px yellow;
+                text-shadow: 0px 2px palevioletred;
+            }
+        }
+    }
+}
+@media(min-width:1439px){
+    .section_two{
+        width: 1440px;
+        display:grid;
+        grid-template: 50% 50% / 50% 50%;
+        &_div_one{
+            width:720px;
+            height:600px;
+            order:2;
+            &_img{
+                width:720px;
+                height:600px;
+            }
+        }
+        &_div_two{
+            width:720px;
+            height:600px;
+            margin:0;
+            order:1;
+            padding-left: 120px;
+            padding-right: 120px;
+            &_h2{
+                font-size: 40px;
+                text-align: left;
+                font-family: 'Fraunces', serif;
+                font-weight: 900;
+                padding-bottom: 32px;
+                padding-top:158px;
+                line-height: 49.32px;
+            }
+            &_p{
+                text-align: left;
+            }
+            &_learn{
+                display: flex;
+                justify-content: left;
+                align-items: center;
+                &_link{
+                    &:hover{
+                        text-shadow: 0px 5px yellow;
+                    } 
+                }
+            }
+        }
+        &_div_three{
+            width:720px;
+            height:600px;
+            order: 3;
+            &_img{
+                width:720px;
+                height:600px;
+            }
+        }
+        &_div_four{
+            width:720px;
+            height:600px;
+            margin:0;
+            padding-left: 120px;
+            padding-right: 120px;
+            order: 4;
+            &_h2{
+                font-size: 40px;
+                text-align: left;
+                font-family: 'Fraunces', serif;
+                font-weight: 900;
+                padding-bottom: 32px;
+                padding-top:158px;
+                line-height: 49.32px;
+            }
+            &_p{
+                text-align: left;
+            }
+            &_learn{
+                display: flex;
+                justify-content: left;
+                align-items: center;
+                &_link{
+                    &:hover{
+                        text-shadow: 0px 5px palevioletred;
+                    }
+                }
             }
         }
     }

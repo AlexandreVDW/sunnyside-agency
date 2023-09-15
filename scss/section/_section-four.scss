@@ -4,172 +4,68 @@
     width: 375px;
     height:1258px;
     &_h2{
-        font-size: 1rem;
         text-align: center;
-        font-family: 'Fraunces', serif;
-        font-weight: 900;
-        line-height: 1.2331rem;
-        margin-top: 4rem;
-        margin-left: 1.5rem;
-        margin-right: 1.5rem;
-        letter-spacing: .25rem;
-        color:#a7aaaD;
+        margin-top: 2rem;
     }
     &_div_body{
-        width: 327px;
-        height:1108px;
-        margin-bottom: 86px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
         &_div_one{
-            width: 327px;
-            height: 288px;
-            margin-left: 24px;
-            margin-right: 24px;
-            margin-top: 4rem;
             &_img{
-                margin-left: 127px;
-                margin-right:128px;
-                width: 72px;
-                height: 72px;
-                border-radius: 50%;
+                border-radius: 100%;
+                width: 8Opx;
+                margin:2rem;
+                margin-top: 3rem;
             }
             &_p{
-                font-size: 18px;
-                text-align: center;
-                font-family: 'Barlow', serif;
-                font-weight: 600;
-                line-height: 32px;
-                letter-spacing: -0.13px;
-                margin-top: 2rem;
+                margin: 0 3rem;
             }
             &_footer{
-                margin-top:32px;
-                margin-left: 62px;
-                margin-right:62px;
-                width: 203px;
-                height: 56px;
                 &_h2{
-                    font-size: 18px;
-                    text-align: center;
-                    font-family: 'Fraunces', serif;
-                    font-weight: 900;
-                    line-height: 22.19px;
-                    margin-bottom: 9px;
-                    margin-left: 62px;
-                    margin-right: 62px;
-                    letter-spacing: -0.13px;
+                    margin-top: 2rem;
                 }
                 &_p{
-                    font-size: 14px;
-                    text-align: center;
-                    font-family: 'Barlow', serif;
-                    font-weight: 600;
-                    line-height: 25px;
-                    letter-spacing: -0.1px;
-                    margin-top: 9px;
+                    margin-top: 1rem;
                 }
             }
         }
         &_div_two{
-            width: 327px;
-            height: 288px;
-            margin-left: 24px;
-            margin-right: 24px;
-            margin-top: 4rem;
-            &_body{
-                &_img{
-                    margin-left: 127px;
-                    margin-right:128px;
-                    width: 72px;
-                    height: 72px;
-                    border-radius: 50%;
-                }
-                &_p{
-                    font-size: 18px;
-                    text-align: center;
-                    font-family: 'Barlow', serif;
-                    font-weight: 600;
-                    line-height: 32px;
-                    letter-spacing: -0.13px;
-                    margin-top: 2rem;
-                }
+            &_img{
+                border-radius: 100%;
+                width: 8Opx;
+                margin:2rem;
+                margin-top: 3rem;
+            }
+            &_p{
+                margin: 0 3rem;
             }
             &_footer{
-                margin-top:32px;
-                margin-left: 62px;
-                margin-right:62px;
-                width: 203px;
-                height: 56px;
                 &_h2{
-                    font-size: 18px;
-                    text-align: center;
-                    font-family: 'Fraunces', serif;
-                    font-weight: 900;
-                    line-height: 22.19px;
-                    margin-bottom: 9px;
-                    margin-left: 62px;
-                    margin-right: 62px;
-                    letter-spacing: -0.13px;
+                    margin-top: 2rem;
                 }
                 &_p{
-                    font-size: 14px;
-                    text-align: center;
-                    font-family: 'Barlow', serif;
-                    font-weight: 600;
-                    line-height: 25px;
-                    letter-spacing: -0.1px;
-                    margin-top: 9px;
+                    margin-top: 1rem;
                 }
             }
         }
         &_div_three{
-            width: 327px;
-            height: 288px;
-            margin-left: 24px;
-            margin-right: 24px;
-            margin-top: 4rem;
-            &_body{
-                &_img{
-                    margin-left: 127px;
-                    margin-right:128px;
-                    width: 72px;
-                    height: 72px;
-                    border-radius: 50%;
-                }
-                &_p{
-                    font-size: 18px;
-                    text-align: center;
-                    font-family: 'Barlow', serif;
-                    font-weight: 600;
-                    line-height: 32px;
-                    letter-spacing: -0.13px;
-                    margin-top: 2rem;
-                }
+            &_img{
+                border-radius: 100%;
+                width: 8Opx;
+                margin:2rem;
+                margin-top: 3rem;
+            }
+            &_p{
+                margin: 0 3rem;
             }
             &_footer{
-                margin-top:32px;
-                margin-left: 62px;
-                margin-right:62px;
-                width: 203px;
-                height: 56px;
                 &_h2{
-                    font-size: 18px;
-                    text-align: center;
-                    font-family: 'Fraunces', serif;
-                    font-weight: 900;
-                    line-height: 22.19px;
-                    margin-bottom: 9px;
-                    margin-left: 62px;
-                    margin-right: 62px;
-                    letter-spacing: -0.13px;
+                    margin-top: 2rem;
                 }
                 &_p{
-                    font-size: 14px;
-                    text-align: center;
-                    font-family: 'Barlow', serif;
-                    font-weight: 600;
-                    line-height: 25px;
-                    letter-spacing: -0.1px;
-                    margin-top: 9px;
+                    margin-top: 1rem;
                 }
             }
         }
